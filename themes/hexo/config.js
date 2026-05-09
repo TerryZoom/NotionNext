@@ -7,7 +7,7 @@ const CONFIG = {
 
   HEXO_HOME_NAV_BUTTONS: false, // 首页是否显示分类大图标按钮
   // 已知未修复bug, 在移动端开启true后会加载不出图片； 暂时建议设置为false。
-  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
+  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: true, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
   // 是否显示开始阅读按钮
   HEXO_SHOW_START_READING: true,
 
@@ -20,7 +20,7 @@ const CONFIG = {
   HEXO_MENU_RANDOM: false, // 显示随机跳转按钮
 
   HEXO_POST_LIST_COVER: false, // 列表显示文章封面
-  HEXO_POST_LIST_COVER_HOVER_ENLARGE: true, // 列表鼠标悬停放大
+  HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
   HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   HEXO_POST_LIST_SUMMARY: false, // 文章摘要
@@ -28,7 +28,7 @@ const CONFIG = {
   HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
   HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
-  HEXO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
+  HEXO_ARTICLE_COPYRIGHT: false, // 显示文章版权声明
   HEXO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
   HEXO_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
@@ -39,7 +39,7 @@ const CONFIG = {
   HEXO_WIDGET_DARK_MODE: true, // 夜间模式
   HEXO_WIDGET_TOC: true, // 移动端悬浮目录
 
-  HEXO_THEME_COLOR: '#928CEE', // 主题色配置（默认为 #928CEE）
+  HEXO_THEME_COLOR: '#98FB98', // 主题色配置（默认为 #928CEE）
 
   /** 文章详情页客户端切换时，主栏显示卡片+转圈占位（无全屏遮罩；已有独立 LoadingCover 的主题无需此项） */
   HEXO_ARTICLE_ROUTE_LOADING: true
